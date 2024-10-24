@@ -2,7 +2,6 @@ import { Component, inject } from '@angular/core';
 import { ApiHandlerService } from '../Services/api-handler.service';
 import { CommonModule } from '@angular/common';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
-import { Router } from '@angular/router';
 import { LocalDataStoreService } from '../Services/local-data-store.service';
 import { Vehicle } from '../entities/Vehilcle';
 import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
