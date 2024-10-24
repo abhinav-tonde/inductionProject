@@ -1,0 +1,17 @@
+.homeContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    button{
+        height: 20vh;
+        width: 30vw;
+        font-size: 5vh;
+        font-weight: 700;
+        box-shadow: 5px 5px 5px black, 15px 15px 15px black;
+        border-radius: 2.5vh;
+    }
+}

@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    color: #222;
+    border: none; 
+}
+
+input{
+    color: black;
+}
+
+body{
+    background-color: lightgray;
+}
+
+html, body { 
+    height: 100%; 
+}
+
+body { margin: 0; 
+    font-family: "Open Sans", sans-serif; 
+}
+
+.ng-tooltip{
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    color: #333333;
+    background-color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.3s;
+    
+}
+
+.ng-tooltip-show{
+    opacity: 1;
+}
